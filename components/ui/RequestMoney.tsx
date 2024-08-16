@@ -17,7 +17,7 @@ import { Label } from "@/components/ui/label"
 
 const RequestMoney = () => {
     return (
-        <Tabs defaultValue="amount" className="w-[400px]">
+        <Tabs defaultValue="amount" className="">
             <TabsList className="grid w-full grid-cols-2">
                 <TabsTrigger value="amount">Request Amount</TabsTrigger>
                 {/* <TabsTrigger value="password">Password</TabsTrigger> */}

@@ -31,7 +31,7 @@ import {
 
 const RepayDebt = () => {
   return (
-    <Tabs defaultValue="extend-debt" className="w-[400px]">
+    <Tabs defaultValue="extend-debt" className="">
     <TabsList className="grid w-full grid-cols-2">
       <TabsTrigger value="extend-debt">Extend Debt</TabsTrigger>
       <TabsTrigger value="clear-debt">Clear Debt</TabsTrigger>
