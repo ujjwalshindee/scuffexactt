@@ -202,14 +202,16 @@ declare interface BankTabItemProps {
   appwriteItemId?: string;
 }
 
-declare interface TotlaBalanceBoxProps {
+declare interface TotalBalanceBoxProps {
   accounts: Account[];
-  totalBanks: number;
+  // totalBanks: number;
   totalCurrentBalance: number;
+  pendingLoans: number;
 }
 
 declare interface FooterProps {
   user: User;
+  type?: 'mobile' | 'desktop'
 }
 
 declare interface RightSidebarProps {

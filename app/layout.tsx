@@ -10,7 +10,7 @@ const ibmPlexSerif = IBM_Plex_Serif({
 })
 export const metadata: Metadata = {
   title: "abc",
-  description: "“ABC simplifies borrowing with fast loan approvals, flexible terms, and secure management all at your fingertips.”",
+  description: "ABC simplifies borrowing with fast loan approvals, flexible terms, and secure management all at your fingertips.",
   icons: {
     icon: '/icons/logo.svg'
   }
