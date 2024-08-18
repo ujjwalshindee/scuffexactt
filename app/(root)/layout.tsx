@@ -1,6 +1,6 @@
-import MobileNav from "@/components/ui/MobileNav";
+import MobileNav from "@/components/MobileNav";
 // import RequestMoney from "@/components/ui/RequestMoney";
-import Sidebar from "@/components/ui/Sidebar";
+import Sidebar from "@/components/Sidebar";
 // import { getLoggedInUser } from "@/lib/actions/user.actions";
 import Image from "next/image";
 import { redirect } from "next/navigation";

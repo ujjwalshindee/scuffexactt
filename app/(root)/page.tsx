@@ -1,8 +1,11 @@
 import React from 'react'
-import HeaderBox from '@/components/ui/HeaderBox'
-import RequestMoney from '@/components/ui/RequestMoney';
-import RepayDebt from '@/components/ui/RepayDebt';
-import BalanceBox from '@/components/ui/BalanceBox';
+import HeaderBox from '@/components/HeaderBox'
+import RequestMoney from '@/components/RequestMoney';
+import RepayDebt from '@/components/RepayDebt';
+import BalanceBox from '@/components/BalanceBox';
+import Footer from '@/components/Footer';
+
+
 
 const Home = () => {
   const loggedIn = { firstName: 'Adrian' };
@@ -20,6 +23,7 @@ const Home = () => {
           <BalanceBox />
           <RequestMoney />
           <RepayDebt />
+          <Footer />
           
         </header>
 
